@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+nav {
+    padding-left: 100px;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -37,4 +41,15 @@ a {
     margin-bottom: 80px;
     display: flex;
     flex-direction: row;
+}
+
+button {
+    background-color: rgb(73, 73, 236);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
 }
