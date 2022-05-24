@@ -75,6 +75,23 @@ a {
      justify-content: center;
      align-items: center;
  }
+
+ .illustration-section {
+     display: flex;
+    gap: 10px;
+    padding: 32px;
+ }
+
+ .illustration {
+     padding: 10px;
+     margin: 10px;
+     width: 100;
+     text-align: center;
+ }
+
+ /* second-section end */
+
+ /* third-section begin */
  
  
 button {
