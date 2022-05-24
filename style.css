@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: scroll;
+  overflow: auto;
   display: flex;
   flex-direction: column;
 }
@@ -11,15 +11,18 @@ body {
     color: white;
 }
 
-nav {
-    margin-left: 100px;
+
+
+li img {
+    padding-left: 0;
+    margin-left: 60px;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+  
     align-items: center;
-    margin: 0 -10px;
+
     list-style: none;
 }
 
