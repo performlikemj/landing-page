@@ -61,7 +61,19 @@ a {
     max-width: 100%;
     height: auto;
 }
+/* done with top section for now. the header needs to be fixed
+   and other position fixes, but we move on for now */
 
+ /* Second Section */
+
+ .second-section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ 
 button {
     background-color: rgb(73, 73, 236);
     border: none;
