@@ -11,11 +11,18 @@ body {
     color: white;
 }
 
+.illustration {
+    width: 30%;
+    height: 200px;
+    border: 2px solid rgb(73, 73, 236);
+}
 
 
-li img {
+img {
     padding-left: 0;
     margin-left: 60px;
+    width: auto;
+    height: auto;
 }
 
 nav ul {
