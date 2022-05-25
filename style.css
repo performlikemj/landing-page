@@ -98,6 +98,28 @@ a {
      padding: 40px;
      text-align: center;
  }
+
+
+ /* third-section ends */
+
+
+ /* last-section begin */
+
+ .call-to-action {
+     flex: 1;
+     background-color: rgb(74, 74, 255);
+     margin: 80px 100px;
+     color: white;
+     padding: 30px 30px;
+     border-radius: 5px;
+ }
+
+ .footer {
+     background-color: rgb(30, 29, 29);
+     color: white;
+     text-align: center;
+     padding: 20px 5px;
+ }
  
  
 button {
