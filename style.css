@@ -108,12 +108,18 @@ a {
  .call-to-action {
      flex: 1;
      display: flex;
-     background-color: rgb(74, 74, 255);
+     justify-content: space-around;
+     background-color: rgb(73, 73, 236);
      margin: 80px 100px;
      color: white;
      padding: 30px 30px;
      border-radius: 5px;
  }
+
+ .bottom-right {
+     align-self: center;
+ }
+
 
  .footer {
      background-color: rgb(30, 29, 29);
@@ -132,4 +138,9 @@ button {
     text-decoration: none;
     font-size: 10px;
     border-radius: 10px;
+}
+
+.bottom-right button {
+    background-color: inherit;
+    border: solid 1px white;
 }
