@@ -12,15 +12,26 @@ body {
 }
 
 
-
-
-img {
-    padding-left: 0;
-    margin-left: 60px;
-    width: auto;
-    height: auto;
+.logo {
+    background-image: url(./images/first-section/family-ties.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10px;
+    
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid white;
+}
+
+/*
 nav ul {
     display: flex;
   
@@ -29,9 +40,17 @@ nav ul {
     list-style: none;
 }
 
+img {
+    padding-left: 0;
+    margin-left: 60px;
+    width: auto;
+    height: auto;
+}
+
 nav li {
     margin: 0 10px;
 }
+*/
 
 .push-right {
     margin-left: auto;
