@@ -78,14 +78,11 @@ a {
     align-self: center;
     width: 300px;
     height: 200px;
-    text-align: center;
     padding: 15px;
-    background-color: grey;
 }
 
 .main-right img {
     max-width: 100%;
-    height: auto;
 }
 /* done with top section for now. the header needs to be fixed
    and other position fixes, but we move on for now */
