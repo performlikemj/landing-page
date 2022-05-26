@@ -11,11 +11,7 @@ body {
     color: white;
 }
 
-.illustration {
-    width: 30%;
-    height: 200px;
-    border: 2px solid rgb(73, 73, 236);
-}
+
 
 
 img {
@@ -61,7 +57,8 @@ a {
 
 .main-right {
     align-self: center;
-    width: auto;
+    width: 300px;
+    height: 200px;
     text-align: center;
     padding: 15px;
     background-color: grey;
@@ -84,17 +81,30 @@ a {
  }
 
  .illustration-section {
-     display: flex;
+    display: flex;
     gap: 10px;
     padding: 32px;
  }
 
  .illustration {
+    width: 30%;
+    height: 200px;
+    border: 2px solid rgb(73, 73, 236);
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+/*
+ .illustration {
      padding: 10px;
      margin: 10px;
      width: 100;
      text-align: center;
- }
+ } 
+ */
 
  /* second-section end */
 
