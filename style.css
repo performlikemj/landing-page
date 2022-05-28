@@ -66,6 +66,7 @@ a {
     margin-bottom: 80px;
     margin-left: 100px;
     display: flex;
+    flex-wrap: wrap-reverse;
     flex-direction: row;
 
 }
