@@ -98,6 +98,7 @@ a {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     margin-left: 100px;
  }
 
  .illustration-section {
@@ -133,10 +134,11 @@ a {
  /* third-section begin */
 
  .third-section {
-     background-color: rgb(206, 205, 205);
-     padding: 40px;
-     text-align: center;
- }
+    background-color: rgb(206, 205, 205);
+    padding: 40px;
+    text-align: center; 
+    padding-left: 100px; 
+}
 
 
  /* third-section ends */
